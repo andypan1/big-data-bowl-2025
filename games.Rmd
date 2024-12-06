@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: "James Pan"
+date: "2024-12-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+```
+
+##Getting the Data
+```{r}
+player_play = read.csv("player_play.csv")
+```
+
